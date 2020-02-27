@@ -1,0 +1,54 @@
+body{
+	background-color: black;
+}
+#tarjeta{
+	margin-top: 50px;
+	margin-right: 250px;
+	margin-bottom: 50px;
+	margin-left: 250px;
+	background-color: white;
+	padding: 10px 20px 10px 20px;
+	height: 450px;
+}
+.header{
+	display: block;
+	background-color: yellow;
+	margin-bottom: 50px;
+	height: 100px;
+}
+.header h1{
+	float: left;
+}
+
+#img_logo {
+    float: right;
+    height: 100%;
+    margin-bottom: 50px;
+}
+#contenedor{
+	display: block;
+	width: 100%;
+}
+
+#contenedor #parrafo{
+    float: left;
+    width: 50%;
+    background-color: red;
+    height: 240px;
+}
+
+#contenedor #formulario {
+    float: right;
+    width: 50%;
+    background-color: blue;
+   	height: 240px;
+
+}
+#formulario input {
+	display: block;
+}
+button{
+	display: block;
+	margin-top: 300px;
+}
+
