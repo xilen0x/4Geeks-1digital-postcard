@@ -12,7 +12,6 @@ body{
 }
 .header{
 	display: block;
-	background-color: yellow;
 	margin-bottom: 50px;
 	height: 100px;
 }
@@ -33,19 +32,19 @@ body{
 #contenedor #parrafo{
     float: left;
     width: 50%;
-    background-color: red;
     height: 240px;
 }
 
 #contenedor #formulario {
     float: right;
-    width: 50%;
-    background-color: blue;
-   	height: 240px;
-
+    width: 40%;
+    height: 240px;
+	margin-right: 20px;
 }
 #formulario input {
 	display: block;
+	margin-top: 10px;
+	width: 100%;
 }
 button{
 	display: block;
