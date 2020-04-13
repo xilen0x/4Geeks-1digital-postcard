@@ -32,7 +32,9 @@ body{
 #contenedor #parrafo{
     float: left;
     width: 50%;
-    height: 240px;
+	height: 240px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 25px;
 }
 
 #contenedor #formulario {
@@ -45,9 +47,14 @@ body{
 	display: block;
 	margin-top: 10px;
 	width: 100%;
+	border-top: white;
+	border-right: white;
+	border-left: white;
 }
 button{
 	display: block;
 	margin-top: 300px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
